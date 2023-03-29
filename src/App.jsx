@@ -48,6 +48,7 @@ function App() {
         />
         :
         <>
+          <h1>The universe</>
           <Card quote={quote} handleNewQuote={handleNewQuote} thumbnail={background} />
           <footer className='card__footer'>Developed by @jmdelav</footer>
         </>
