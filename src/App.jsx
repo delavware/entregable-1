@@ -47,11 +47,11 @@ function App() {
         data-testid="loader"
         />
         :
-        <>
-          <h1>The universe</>
+        <div className='main__container'>
+          <h1 className='title'>The universe</h1>
           <Card quote={quote} handleNewQuote={handleNewQuote} thumbnail={background} />
           <footer className='card__footer'>Developed by @jmdelav</footer>
-        </>
+        </div>
       }
       
     </div>

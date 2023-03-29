@@ -32,6 +32,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  
 }
 
 
@@ -43,6 +45,14 @@
 .bg-4 {background-image: url('/images/bg-4.png?v1');}
 
 /* Background Images */
+
+.title {
+  font-family: var(--font-gral-txt);
+  color: #fff;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
 
 .card {
   background-color: white;
